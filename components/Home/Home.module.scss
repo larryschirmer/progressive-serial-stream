@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 5rem auto;
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  }
+  .output {
+    word-wrap: break-word;
+  }
+}
